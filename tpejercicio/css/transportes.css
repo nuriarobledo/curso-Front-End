@@ -1,3 +1,4 @@
+/*font-family: 'Open Sans', sans-serif;*/
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -16,6 +17,7 @@ header h1{
 }
 nav{
     background-color: #6da9ed;
+    margin-bottom: 20px;
 
 }
 nav ul{
@@ -27,6 +29,13 @@ nav ul{
 nav ul li{
     flex-grow: 1;
 }
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
 nav ul li a:hover{
     background-color: #4c76a5;
 }
@@ -36,10 +45,10 @@ nav ul li a.activo{
 footer{
     background-color: #ccc;
     text-align: center;
-    padding: 40px 0;
+    padding: 40px 0; /*arriba-abajo lateraes*/
     margin-top: 20px;
 }
-.holder{
+.holder{ /*contenedor*/
     max-width: 960px;
     margin: 0 auto;   
 }
@@ -49,12 +58,10 @@ h2{
 }
 .bienvenidos{
     width: 75%;
-    background-color: yellow; /*desp comentar*/
-    padding: 16px;
+    padding-right: 16px;
 }
 .testimonios{
-    width: 25%;
-    background-color: lightcoral;
+    width: 25%; 
 }
 .columnas{
     display: flex;
@@ -67,14 +74,22 @@ h2{
     font-size: 24px;
     font-weight: bold;
     font-style: italic;
-    background-color: aqua;
-
+    display: block;
 }
 
 .testimonio .autor{
     font-size: 11px;
+    font-style: italic;
     background-color: lightblue;
     text-align: center;
     display: block;
-
+    margin-top: 16px;
+}
+.historia p{ /*solo el parrafo*/
+    font-size: 12px;
+}
+.persona{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 20%;
 }
