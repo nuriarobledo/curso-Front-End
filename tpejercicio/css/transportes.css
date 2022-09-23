@@ -128,6 +128,9 @@ h2{
     border-radius: 10px;
     margin: 16px 0;
     padding: 16px;
+    display: flex; /*pongo la imagen al costad0*/
+    gap: 30px;
+    align-items: center;
 }
 .servicio .info h4{
     color: #2e64a1;
@@ -136,4 +139,49 @@ h2{
     font-style: italic;
     border-bottom: 1px solid #2e64a1;
     padding-bottom: 8px ;
+}
+.servicio img{
+    max-width: 225px;
+    display: block;
+    border-radius: 15px;
+}
+.servicio:nth-child(even){ /*usamos una pseudoclase*/
+    /*tenemos hijos pares > arranca cn el cero*/
+    /*cambio la imagen 1 y 3 pq sn impares*/
+    flex-direction: row-reverse;
+}
+.contacto{
+    display: flex;
+   gap: 25px;
+    /*justify-content: space-between;*/
+}
+.contacto section{
+    width: 100%;
+}
+.datos p{
+    font-size: 14px;
+}
+.datos ul li{
+    font-size: 13px;
+}
+.formulario{
+    background-color: #ddd;
+
+}
+.formulario p{
+    display: flex; 
+}
+.formulario p label{
+    min-width: 80px;
+    font-style: italic;
+    background-color: aqua;
+}
+.formulario p input,
+.formulario p textarea{
+    background-color: orange;
+    width: 100%;
+}
+.formulario .boton {
+    background-color: green;
+    border-radius: 6px;
 }
