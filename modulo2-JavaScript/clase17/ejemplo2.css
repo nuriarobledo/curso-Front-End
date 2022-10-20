@@ -1,0 +1,8 @@
+#mensaje{
+    background-color: rgb(229, 155, 155);
+    border: 1px solid brown;
+    padding: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
