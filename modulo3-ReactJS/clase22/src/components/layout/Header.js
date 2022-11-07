@@ -1,10 +1,9 @@
 const Header = (props) =>{
     return(
         <header>
-        <p> Hola soy el Header </p>
-        <p> lorem dimsjovdnjvanfvijvnskjkvsdvkj</p>
-        <p> ldaojfnnsoovndnijdsnkxcnsnfonasklacnlaenclanefl </p>
+        <h1> EJEMPLO con REACT JS</h1>
         </header>
+    
     )
 }
 export default Header; 
