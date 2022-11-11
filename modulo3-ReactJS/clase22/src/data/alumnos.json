@@ -1,0 +1,29 @@
+[
+    {
+        "nombre": "Nuria",
+        "apellido": "Robledo",
+        "edad": 20
+    },
+    {
+        "nombre": "Lucho",
+        "apellido": "Robledo",
+        "edad": 30
+    },
+    {
+        "nombre": "Nadine",
+        "apellido": "Robledo",
+        "edad": 18
+    },
+    {
+        "nombre": "Lara",
+        "apellido": "Robledo",
+        "edad": 15
+    },
+    {
+        "nombre": "Genaro",
+        "apellido": "Robledo",
+        "edad": 9
+    }
+]
+
+
